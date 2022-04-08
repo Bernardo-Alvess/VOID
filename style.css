@@ -1,15 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
 *{
     margin: 0;
     padding: 0;
 }
 
 html, body{
-    overflow-x: hidden;
+    overflow-x: hidden; /*added this so user can't scroll horizontally*/
+    font-family: "Inter", sans-serif;
 }
 
 main{
     height: 100vh;
 }
+
+/*Black hole background styling*/
 
 .blackHole{
     background: url("imgs/blackHole.png");
@@ -20,6 +25,23 @@ main{
     height: 1500px;
     padding-bottom: 100px;
     background-color: black;
+}
+
+/*Styling the text by the side of the black hole*/
+
+#voidTextIntro{
+    color: #FFF;
+    background-color: red;
+    position: relative;
+    top: 20%;
+    left: 50%;
+    width: 200px;
+    white-space: nowrap;
+    height: 200px;
+}
+
+#weAre{
+    font-size: ;
 }
 
 /* -------------------------------------------------------------------------------- */
