@@ -6,12 +6,37 @@
 }
 
 html, body{
-    overflow-x: hidden; /*added this so user can't scroll horizontally*/
     font-family: "Inter", sans-serif;
+    background-color: black;
 }
 
 main{
-    height: 100vh;
+    height: 99vh;
+}
+
+/*Nav styling*/
+
+header{
+    background-color: #000;
+    display: flex;
+    height: 50px;
+    width: 99vw;
+    position: fixed;
+    align-items: center;
+    justify-content: center;
+}
+
+#headerNav{
+    display: flex;
+    gap: 20px;
+}
+
+.btnNav{
+    color: #FFF;
+    background-color: rgba(0, 0, 0, 0);
+    border: 1px solid #FFF;
+    width: 100px;
+    border-radius: 50px;
 }
 
 /*Black hole background styling*/
@@ -22,7 +47,7 @@ main{
     background-size: cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
-    width: 100vw;
+    width: 98vw;
     height: 1000px;
     padding-bottom: 100px;
     background-color: black;
