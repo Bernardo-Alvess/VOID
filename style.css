@@ -18,11 +18,12 @@ main{
 
 .blackHole{
     background: url("imgs/blackHole.png");
-    background-position: cover;
+    background-position: left top;
+    background-size: cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
     width: 100vw;
-    height: 1500px;
+    height: 900px;
     padding-bottom: 100px;
     background-color: black;
 }
@@ -31,17 +32,62 @@ main{
 
 #voidTextIntro{
     color: #FFF;
-    background-color: red;
     position: relative;
     top: 20%;
     left: 50%;
     width: 200px;
     white-space: nowrap;
     height: 200px;
+    cursor: default;
 }
 
 #weAre{
-    font-size: ;
+    font-size: 3em;
+    font-weight: 400;
+    position: relative;
+    bottom: 25px;
+    transition: 2s;
+}
+
+#void{
+    font-size: 7em;
+    font-weight: 600;
+}
+
+#wear{
+    font-size: 2.2em;
+    font-weight: 600;
+    position: relative;
+    bottom: 40px;
+    left: 300px;
+}
+
+#discover{
+    font-size: 1.8em;
+    font-weight: 400;
+}
+
+/*Makes each letter of V.OID disappear on hover*/
+
+.voidConsume{
+    transition: 0.5s;
+}
+
+.voidConsume:hover{
+    opacity: 0;
+}
+
+#btnExplore{
+    border: 1px solid white;
+    color: #FFF;
+    background-color: rgba(0, 0, 0, 0);
+    width: 250px;
+    height: 65px;
+    border-radius: 50px;
+    font-size: 40px;
+    position: relative;
+    top: 40%;
+    left: 60%;
 }
 
 /* -------------------------------------------------------------------------------- */
